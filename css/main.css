@@ -1,0 +1,170 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/***** GRID *****/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+.half-width{
+  width: 600px;
+  float: left;
+}
+.third-width{
+  width: 400px;
+  float: left;
+}
+
+/***** Header *****/
+
+#header {
+  height: 800px;
+  background: url('../img/header-image.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+    float: right;
+    padding: 75px 25px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #828282;
+    padding-left: 80px;
+}
+
+#header h1 {
+  padding-top: 300px;
+  font-family: 'Raleway'sans-serif;
+  font-size: 60px;
+  line-height: 65px;
+  color: #daa520;
+  text-align: center;
+  margin: 0;
+  padding-left: 75px;
+}
+
+#header h2 {
+  width: 800px;
+  font-family: 'Raleway', sans-serif;
+  color: #095156;
+  font-size: 48px;
+  font-weight: lighter;
+  text-align: center;
+  line-height: 50px;
+  padding-left: 225px;
+}
+
+/***** Portfolio *****/
+
+#portfolio {
+  height: 1450px;
+}
+
+#portfolio img {
+  height: 345px;
+  width: 500px;
+  border: 1px solid #095156;
+}
+
+.jubilee-img {
+  padding: 25px;
+}
+
+.rogue-img {
+  padding: 25px;
+}
+
+.recipe-img {
+  padding: 25px;
+}
+
+#portfolio h3 {
+  font-size: 36px;
+  text-align: center;
+  line-height: 50px;
+  color: #daa520;
+  font-weight: bold;
+}
+
+#portfolio p {
+  font-size: 24px;
+  color: #095156;
+  line-height: 35px;
+}
+
+.jubilee {
+  padding-bottom: 30px;
+}
+
+.rogue {
+  padding-bottom: 7px;
+}
+/***** About *****/
+
+#about {
+  height: 650px;
+  background-color: #087e8b;
+  color: #ffffff;
+}
+
+ #about img {
+   height: 350px;
+   width: 500px;
+   padding: 25px;
+ }
+
+#about h3 {
+  font-size: 36px;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  padding-top: 25px;
+}
+
+#about p {
+  font-size: 24px;
+  line-height: 32px;
+}
+ /***** Contact *****/
+
+ #contact {
+   height: 400px;
+   background-color: #095156;
+   color: #ffffff;
+ }
+
+#contact h3 {
+  font-size: 36px;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  padding-top: 25px;
+  margin: 0;
+}
+
+#contact .third-width{
+  text-align: center;
+  margin-top: 25px;
+}
+
+#contact p {
+  font-size: 24px;
+  line-height: 32px;
+}
+#contact a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#contact i{
+  font-size: 40px;
+  letter-spacing: 10px;
+}
