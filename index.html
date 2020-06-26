@@ -20,11 +20,10 @@
     </head>
 
     <body>
-    <section id="header">
+    <header>
       <div class="content-wrapper" "home">
           <nav>
             <ul>
-              <li><a href="home">Home</a></li>
               <li><a href="#portfolio">Work</a></li>
               <li><a href="#about">About</a></li>
               <li><a href="#contact">Contact</a></li>
@@ -33,98 +32,110 @@
         <h1>Hi there! I'm Lindsay Simpson.</h1>
         <h2>I am a web developer, breaking into the world of tech.</h2>
       </div>
-    </section>
+    </header>
+
+    <main>
     <section id="portfolio">
       <div class="content-wrapper">
         <h3>My Portfolio</h3>
-        <div class="half-width">
-          <div class="jubilee-img">
-            <img src="img/jubilee-thumbnail.png" alt="Jubilee Austen Screenshot"/>
-          </div>
-          <div class="jubilee">
-            <p>
+        <div class="portfolio-items">
+          <article>
+            <figure class="portfolio-img">
+              <img src="img/jubilee-thumbnail.png" alt="Jubilee Austen Screenshot"/>
+            </figure>
+          </article>
+          <article>
+            <p class="portfolio-description">
               <strong>Jubilee Austen Project</strong><br>
               HTML 5 &amp; CSS Website<br>
               <br>
               My very first project was this one page portfolio website that was coded from a photoshop design template. Focusing on layout and easy navigation. This website is easy for viewers to interact with and find their way around to the information they are looking for.
             </p>
-          </div>
-          <div class="rogue-img">
-            <img src="img/rogue-thumbnail.png" alt="Rogue Pickings Screenshot"/>
-          </div>
-          <div class="rogue">
-            <p>
+          </article>
+          <article>
+            <figure class="portfolio-img">
+              <img src="img/rogue-thumbnail.png" alt="Rogue Pickings Screenshot"/>
+            </figure>
+          </article>
+          <article>
+            <p class="portfolio-description">
               <strong>Rogue Pickings Website</strong><br>
               HTML &amp; CSS form Photoshop Desgin Comp<br>
               <br>
               This single web-page was coded from a photoshop design template given to me to help further along my HTML and CSS coding skills. This project features a homepage web design geared towards a small business. This easy to navigate site allows readers to learn more about the company and how to find them.
             </p>
-          </div>
-          <div class="recipe-img">
-            <img src="img/recipe-thumbnail.png" alt="Recipe Collection Screenshot"/>
-          </div>
-          <div class="recipe">
-            <p>
+          </article>
+          <article>
+            <figure class="portfolio-img">
+              <img src="img/recipe-thumbnail.png" alt="Recipe Collection Screenshot"/>
+            </figure>
+          </article>
+          <article>
+            <p class="portfolio-description">
               <strong>Recipe Collection</strong><br>
               HTML 5 &amp; CSS Exercise<br>
               <br>
               This was an exercise focused on learning new CSS skills. Learning new styles and how to use them appropriately. This webpage features multiple clean cut recipe cards for various recipes. With easy to read instructions for any baker.
             </p>
-          </div>
+          </article>
         </div>
       </div>
     </section>
     <section id="about">
       <div class="content-wrapper">
         <h3>About Me</h3>
-        <div class="half-width">
-          <div class="about-me-img">
+        <article>
+          <figure>
             <img src="img/self-portrait.png" alt="Personal Portrait"/>
-          </div>
-        </div>
-        <div class="half-width">
-          <p>
-            <strong>Hello!</strong><br>
-            <br>My name is Lindsay Simpson and I am breaking into the world of tech through web development. While I am new to the field, I am coming at it full force and ready to succeed! I am open to learning new skills and perfecting the ones I have. I love bringing web designs to life via HTML, CSS, Javascript, and Wordpress.
-            <br>
-            <br>Can't wait to work with you!
-          </p>
-        </div>
+          </figure>
+          <div class="about-me">
+            <p>
+              <strong>Hello!</strong><br>
+              <br>My name is Lindsay Simpson and I am breaking into the world of tech through web development. While I am new to the field, I am coming at it full force and ready to succeed! I am open to learning new skills and perfecting the ones I have. I love bringing web designs to life via HTML, CSS, Javascript, and Wordpress.
+              <br>
+              <br>Can't wait to work with you!
+            </p>
+          <div>
+        </article>
       </div>
     </section>
-    <section id="contact">
+  </main>
+
+    <footer>
       <div class="content-wrapper">
         <h3>Let's Connect.</h3>
-        <div class="third-width">
-          <p>
-            <strong>Reach Me</strong><br>
-            <br>
-            <a href="mailto:lindsrsimpson@gmail.com">
+        <div class="footer-content">
+          <div class="contact">
+            <p>
+              <strong>Reach Me</strong><br>
+              <br>
+              <a href="mailto:lindsrsimpson@gmail.com">
               lindsrsimpson@gmail.com
-            </a>
-          </p>
-        </div>
-        <div class="third-width">
-          <p>
-            <strong>Follow Me</strong><br>
-            <br>
-            <a href="https://github.com/lrsimpson" target="_blank">
-              <i class="fab fa-github"></i>
-            </a>
-            <a href="http://linkedin.com/in/lindsay-simpson-6b2796193" target="_blank">
-              <i class="fab fa-linkedin"></i>
-            </a>
-        </div>
-        <div class="third-width">
-          <p>
-            <strong>Meet me</strong><br>
-            <br>
-            Local to Louisville, KY.<br>
-            Open to video chats too!
-          </p>
+              </a>
+            </p>
+          </div>
+          <div class="contact">
+            <p>
+              <strong>Follow Me</strong><br>
+              <br>
+              <a href="https://github.com/lrsimpson" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="http://linkedin.com/in/lindsay-simpson-6b2796193" target="_blank">
+                <i class="fab fa-linkedin"></i>
+              </a>
+          </div>
+          <div class="contact">
+              <p>
+                <strong>Meet me</strong><br>
+                <br>
+                Local to Louisville, KY.<br>
+                Open to video chats too!
+              </p>
+          </div>
         </div>
       </div>
-    </section>
+    </footer>
 
     <script src="js/vendor/modernizr-3.8.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
