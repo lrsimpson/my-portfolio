@@ -98,170 +98,210 @@ textarea {
    Author's custom styles
    ========================================================================== */
    .content-wrapper {
-     width: 90%;
-     margin-left: 10px;
-   }
-   /***** Header *****/
+        width: 90%;
+        margin-left: 10px;
+      }
+ body {
+   font-family: 'Montserrat', sans-serif;
+ }
+      /***** Header *****/
 
-   header {
-     display: flex;
-     justtify-content: center;
-     align-items: center;
-     flex-flow: row wrap;
-     background: url('../img/header-image.jpg');
-     background-size: cover;
-     background-position: left;
-     background-repeat: no-repeat;
-   }
+header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+        background: url('../img/header-image.jpg');
+        background-size: cover;
+        background-position: left;
+        background-repeat: no-repeat;
+      }
 
-   nav {
-     display: flex;
-     justtify-content: center;
-     align-items: center;
-     flex-flox: row wrap;
-     text-align: center;
-   }
+header nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flox: row wrap;
+        text-align: center;
+      }
 
-   nav ul li{
-     display: flex;
-     justtify-content: center;
-     align-items: center;
-     flex-flow: row wrap;
-     text-align: center;
-   }
+header nav ul li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+        text-align: center;
+      }
 
-   nav ul li a {
-     text-transform: uppercase;
-     text-decoration: none;
-     font-size: 1.125em;
-     color: #828282;
-     padding-bottom: 10px;
-     text-align: center;
-   }
+header nav ul li a {
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 1.125em;
+        color: #828282;
+        padding-bottom: 10px;
+        text-align: center;
+      }
 
-   header h1 {
-     font-family: 'Raleway'sans-serif;
-     font-size: 1.875em;
-     line-height: 2em;
-     color: #daa520;
-     text-align: center;
-     margin: 0;
-   }
+      header h1 {
+        font-family: 'Raleway'sans-serif;
+        font-size: 1.875em;
+        line-height: 2em;
+        color: #daa520;
+        text-align: center;
+        margin: 0;
+      }
 
-   header h2 {
-     font-family: 'Raleway', sans-serif;
-     color: #095156;
-     font-size: 1.5em;
-     font-weight: lighter;
-     line-height: 1.75em;
-     text-align: center;
-   }
+      header h2 {
+        font-family: 'Raleway', sans-serif;
+        color: #095156;
+        font-size: 1.5em;
+        font-weight: lighter;
+        line-height: 1.75em;
+        text-align: center;
+      }
 
-      /***** Portfolio *****/
+         /***** Portfolio *****/
 
-   #portfolio {
-     margin: 0;
-   }
+      #portfolio {
+        margin: 0;
+      }
 
-   #portfolio h3 {
-     font-size: 1.5em;
-     text-align: center;
-     line-height: 1.75em;
-     color: #daa520;
-     font-weight: bold;
-   }
+      #portfolio h3 {
+        font-size: 1.5em;
+        text-align: center;
+        line-height: 1.75em;
+        color: #daa520;
+        font-weight: bold;
+      }
 
-   .portfolio-items {
-     display: flex;
-     justtify-content: center;
-     align-items: center;
-     flex-flow: row wrap;
-   }
-
-
-   #portfolio img {
-     width: 100%;
-     border: 1px solid #095156;
-     padding: 0;
-   }
-
-   #portfolio p {
-     font-size: 1em;
-     color: #095156;
-     line-height: 1.2em;
-   }
+      .portfolio-items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+      }
 
 
-   /***** About *****/
+      #portfolio img {
+        width: 100%;
+        border: 1px solid #095156;
+        padding: 0;
+      }
 
-   #about {
-     background-color: #087e8b;
-     color: #ffffff;
-     margin-bottom: 0;
-     padding-bottom: 20px;
-   }
+      #portfolio p {
+        font-size: 1em;
+        color: #095156;
+        line-height: 1.2em;
+      }
 
-   #about article {
-     width: 95%;
-     margin: 0;
-   }
-
-   #about img {
-     width:100%;
-   }
-
-   #about h3 {
-     font-size: 1.5em;
-     text-align: center;
-     line-height: 1.5em;
-     font-weight: bold;
-     padding-top: 25px;
-   }
-
-   #about p {
-     font-size: 1em;
-     line-height: 1.2em;
-   }
-
-   /***** Contact *****/
-
-footer {
-  background-color: #095156;
-  color: #ffffff;
-  margin-top: 0;
-  display: flex;
-  justtify-content: center;
-  align-items: center;
-  width: 100%;
-  padding-top: 15px;
-  padding-bottom: 15px;
+.full-portfolio {
+  text-align: center;
 }
 
-footer h3 {
-  font-size: 1.5em;
-  text-align: center;
-  line-height: 1.7;
-  font-weight: bold;
+.full-portfolio a {
+  text-decoration: none;
+  color: #095156;
+}
+
+      /***** About *****/
+
+      #about {
+        background-color: #087e8b;
+        color: #ffffff;
+        margin-bottom: 0;
+        padding-bottom: 20px;
+      }
+
+      #about .content-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+        margin: 0;
+      }
+
+      #about img {
+        width:100%;
+      }
+
+      #about h3 {
+        font-size: 1.5em;
+        text-align: center;
+        line-height: 1.5em;
+        font-weight: bold;
+        padding-top: 25px;
+      }
+
+      #about p {
+        font-size: 1em;
+        line-height: 1.2em;
+      }
+
+      /***** Contact *****/
+
+   footer {
+     background-color: #095156;
+     color: #ffffff;
+     margin-top: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     padding-top: 15px;
+     padding-bottom: 15px;
+   }
+
+   footer h3 {
+     font-size: 1.5em;
+     text-align: center;
+     line-height: 1.7;
+     font-weight: bold;
+     margin: 0;
+   }
+
+   .contact {
+     text-align: center;
+   }
+
+   .contact p {
+     font-size: 1em;
+     line-height: 1.2em;
+   }
+
+   .contact a {
+     text-decoration: none;
+     color: #ffffff;
+   }
+
+   .contact i{
+      font-size: 1.4em;
+      letter-spacing: 10px;
+   }
+
+/**** Portfolio Page *****/
+
+.portfolio-nav {
+  height: 60px;
+  background-color: #087e8b;
   margin: 0;
 }
 
-.contact {
-  text-align: center;
+.portfolio-nav p {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
-.contact p {
+.portfolio-nav a {
   font-size: 1em;
-  line-height: 1.2em;
-}
-
-.contact a {
-  text-decoration: none;
   color: #ffffff;
-}
-
-.contact i{
-   font-size: 1.4em;
-   letter-spacing: 10px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
 }
 
 /* ==========================================================================
@@ -354,8 +394,170 @@ footer h3 {
    ========================================================================== */
 
    /** Tablet styles here **/
-   @media only screen and (min-width: 768px) {
 
+      @media only screen and (min-width: 768px) {
+        header {
+           height: 400px;
+         }
+    header nav {
+      justify-content: flex-end;
+      padding-bottom: 60px;
+    }
+
+    header nav ul {
+     display: flex;
+     justify-content: space-around;
+    }
+
+         header nav ul li a {
+           font-size: 1.125em;
+           padding-left: 50px;
+         }
+
+         header h1 {
+           font-size: 2.5em;
+         }
+
+         header h2 {
+           font-size: 2em;
+           text-align: center;
+
+         }
+
+           .content-wrapper {
+             width:100%;
+           }
+
+           #portfolio article {
+             width: 49%;
+           }
+
+         #portfolio p {
+           font-size: 1.2em;
+         }
+
+           #about article {
+             width: 49%;
+           }
+
+           .footer-content{
+           display: flex;
+           justify-content: center;
+           align-items:center;
+           flex-flow: row wrap;
+         }
+
+         .contact {
+           width: 33%;
+         }
+
+         #about p {
+           font-size: 1.25em;
+         }
+
+         .contact p {
+           font-size: 1.25em;
+         }
+/*** Full Portfolio Page ***/
+
+.portfolio-nav {
+  height: 75px;
+}
+
+.portfolio-nav p {
+  justify-content: flex-end;
+  padding-right: 15px;
+}
+
+.portfolio-nav a {
+  font-size: 1.5em;
+}
+      /* Desktop Styles Here */
+
+      @media only screen and (min-width: 1200px) {
+
+      body {
+        text-align: center;
+      }
+
+      .content-wrapper {
+        max-width: 1200px;
+      }
+
+      header {
+        height: 800px;
+      }
+
+      header h1 {
+        font-size: 3.75em;
+      }
+
+      header h2{
+        font-size: 2.8125em;
+
+      }
+
+      #portfolio {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #portfolio h3 {
+        font-size: 36px;
+      }
+
+      #portfolio img {
+        height: 345px;
+        width: 500px;
+      }
+
+      #portfolio p {
+        font-size: 1.5em;
+        line-height: 1.6em;
+        text-align: left;
+      }
+
+      #about {
+        height: 650px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+
+      }
+
+      #about h3 {
+        font-size: 30px;
+        width: 60%;
+      }
+      .about-me {
+        font-size: 20px;
+        line-height: 24px;
+        text-align: left;
+      }
+
+      footer {
+        height: 400px;
+      }
+
+      footer h3 {
+        font-size: 36px;
+        line-height: 50px;
+        padding-bottom: 25px;
+
+      }
+
+      .contact p {
+        font-size: 1.5em;
+        line-height: 32px;
+      }
+
+      .contact i {
+        font-size: 2em;
+      }
+
+}
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
