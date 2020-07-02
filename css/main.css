@@ -97,102 +97,103 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-   .content-wrapper {
-        width: 90%;
-        margin-left: 10px;
-      }
- body {
-   font-family: 'Montserrat', sans-serif;
- }
-      /***** Header *****/
+
+/*** General Styles ***/
+
+.content-wrapper {
+  width: 90%;
+  margin-left: 10px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/***** Header *****/
 
 header {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-flow: row wrap;
-        background: url('../img/header-image.jpg');
-        background-size: cover;
-        background-position: left;
-        background-repeat: no-repeat;
-      }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background: url('../img/header-image.jpg');
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+}
 
 header nav {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-flox: row wrap;
-        text-align: center;
-      }
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-flox: row wrap;
+  text-align: center;
+}
 
 header nav ul li{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-flow: row wrap;
-        text-align: center;
-      }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  text-align: center;
+}
 
 header nav ul li a {
-        text-transform: uppercase;
-        text-decoration: none;
-        font-size: 1.125em;
-        color: #828282;
-        padding-bottom: 10px;
-        text-align: center;
-      }
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.125em;
+  color: #828282;
+  padding-bottom: 10px;
+  text-align: center;
+}
 
-      header h1 {
-        font-family: 'Raleway'sans-serif;
-        font-size: 1.875em;
-        line-height: 2em;
-        color: #daa520;
-        text-align: center;
-        margin: 0;
-      }
+header h1 {
+  font-family: 'Raleway'sans-serif;
+  font-size: 1.875em;
+  line-height: 2em;
+  color: #daa520;
+  text-align: center;
+  margin: 0;
+}
 
-      header h2 {
-        font-family: 'Raleway', sans-serif;
-        color: #095156;
-        font-size: 1.5em;
-        font-weight: lighter;
-        line-height: 1.75em;
-        text-align: center;
-      }
+header h2 {
+  font-family: 'Raleway', sans-serif;
+  color: #095156;
+  font-size: 1.5em;
+  font-weight: lighter;
+  line-height: 1.75em;
+  text-align: center;
+}
 
-         /***** Portfolio *****/
+/***** Portfolio Section *****/
 
-      #portfolio {
-        margin: 0;
-      }
+#portfolio h3 {
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 1.75em;
+  color: #daa520;
+  font-weight: bold;
+}
 
-      #portfolio h3 {
-        font-size: 1.5em;
-        text-align: center;
-        line-height: 1.75em;
-        color: #daa520;
-        font-weight: bold;
-      }
-
-      .portfolio-items {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-flow: row wrap;
-      }
+.portfolio-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
 
-      #portfolio img {
-        width: 100%;
-        border: 1px solid #095156;
-        padding: 0;
-      }
+#portfolio img {
+  width: 100%;
+  border: 1px solid #095156;
+  padding: 0;
+}
 
-      #portfolio p {
-        font-size: 1em;
-        color: #095156;
-        line-height: 1.2em;
-      }
+#portfolio p {
+  font-size: 1em;
+  color: #095156;
+  line-height: 1.2em;
+}
 
 .full-portfolio {
   text-align: center;
@@ -203,80 +204,80 @@ header nav ul li a {
   color: #095156;
 }
 
-      /***** About *****/
+/***** About Section *****/
 
-      #about {
-        background-color: #087e8b;
-        color: #ffffff;
-        margin-bottom: 0;
-        padding-bottom: 20px;
-      }
+#about {
+  background-color: #087e8b;
+  color: #ffffff;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
 
-      #about .content-wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-flow: row wrap;
-        margin: 0;
-      }
+#about .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 
-      #about img {
-        width:100%;
-      }
+}
 
-      #about h3 {
-        font-size: 1.5em;
-        text-align: center;
-        line-height: 1.5em;
-        font-weight: bold;
-        padding-top: 25px;
-      }
+#about img {
+  width:100%;
+}
 
-      #about p {
-        font-size: 1em;
-        line-height: 1.2em;
-      }
+#about h3 {
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 1.5em;
+  font-weight: bold;
+  padding-top: 25px;
+}
 
-      /***** Contact *****/
+#about p {
+  font-size: 1em;
+  line-height: 1.2em;
+}
 
-   footer {
-     background-color: #095156;
-     color: #ffffff;
-     margin-top: 0;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     width: 100%;
-     padding-top: 15px;
-     padding-bottom: 15px;
-   }
+/***** Footer *****/
 
-   footer h3 {
-     font-size: 1.5em;
-     text-align: center;
-     line-height: 1.7;
-     font-weight: bold;
-     margin: 0;
-   }
+footer {
+  background-color: #095156;
+  color: #ffffff;
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 
-   .contact {
-     text-align: center;
-   }
+footer h3 {
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 1.7;
+  font-weight: bold;
+  margin: 0;
+}
 
-   .contact p {
-     font-size: 1em;
-     line-height: 1.2em;
-   }
+.contact {
+  text-align: center;
+}
 
-   .contact a {
-     text-decoration: none;
-     color: #ffffff;
-   }
+.contact p {
+  font-size: 1em;
+  line-height: 1.2em;
+}
 
-   .contact i{
-      font-size: 1.4em;
-      letter-spacing: 10px;
-   }
+.contact a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.contact i{
+  font-size: 1.4em;
+  letter-spacing: 10px;
+}
 
 /**** Portfolio Page *****/
 
@@ -393,71 +394,90 @@ header nav ul li a {
    Modify as content requires.
    ========================================================================== */
 
-   /** Tablet styles here **/
+/** Tablet styles here **/
 
-      @media only screen and (min-width: 768px) {
-        header {
-           height: 400px;
-         }
-    header nav {
-      justify-content: flex-end;
-      padding-bottom: 60px;
-    }
+@media only screen and (min-width: 768px) {
 
-    header nav ul {
-     display: flex;
-     justify-content: space-around;
-    }
+.content-wrapper {
+  width: 100%;
+}
 
-         header nav ul li a {
-           font-size: 1.125em;
-           padding-left: 50px;
-         }
+header {
+  height: 400px;
+}
 
-         header h1 {
-           font-size: 2.5em;
-         }
+header nav {
+  justify-content: flex-end;
+  padding-bottom: 60px;
+}
 
-         header h2 {
-           font-size: 2em;
-           text-align: center;
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
 
-         }
+header nav ul li a {
+  font-size: 1.125em;
+  padding-left: 50px;
+}
 
-           .content-wrapper {
-             width:100%;
-           }
+header .taglines {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
 
-           #portfolio article {
-             width: 49%;
-           }
+header h1 {
+  font-size: 2.25em;
+}
 
-         #portfolio p {
-           font-size: 1.2em;
-         }
+header h2 {
+  font-size: 2em;
+  width: 500px;
+}
 
-           #about article {
-             width: 49%;
-           }
+/*** Portfolio Section Styles ***/
 
-           .footer-content{
-           display: flex;
-           justify-content: center;
-           align-items:center;
-           flex-flow: row wrap;
-         }
+#portfolio article {
+  width: 49%;
+}
 
-         .contact {
-           width: 33%;
-         }
+#portfolio p {
+  font-size: 1.2em;
+}
 
-         #about p {
-           font-size: 1.25em;
-         }
+.full-portfolio {
+  display: flex;
+  justify-content: center;
+}
 
-         .contact p {
-           font-size: 1.25em;
-         }
+/*** About Section***/
+
+#about article {
+  width: 49%;
+}
+
+/*** Footer ***/
+
+.footer-content{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-flow: row wrap;
+}
+
+.contact {
+  width: 33%;
+}
+
+#about p {
+  font-size: 1.25em;
+}
+
+.contact p {
+  font-size: 1.25em;
+}
+
 /*** Full Portfolio Page ***/
 
 .portfolio-nav {
@@ -472,90 +492,97 @@ header nav ul li a {
 .portfolio-nav a {
   font-size: 1.5em;
 }
-      /* Desktop Styles Here */
 
-      @media only screen and (min-width: 1200px) {
+/* Desktop Styles Here */
 
-      body {
-        text-align: center;
-      }
+@media only screen and (min-width: 1200px) {
 
-      .content-wrapper {
-        max-width: 1200px;
-      }
+.content-wrapper {
+  max-width: 1200px;
+}
 
-      header {
-        height: 800px;
-      }
+header {
+  height: 800px;
+}
 
-      header h1 {
-        font-size: 3.75em;
-      }
+header nav {
+  padding-bottom: 200px;
+}
 
-      header h2{
-        font-size: 2.8125em;
+header h1 {
+  font-size: 3.75em;
+}
 
-      }
+header h2 {
+    font-size: 2.8125em;
+    width: 800px;
+}
 
-      #portfolio {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
+/*** Portfolio Section ***/
 
-      #portfolio h3 {
-        font-size: 36px;
-      }
+#portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 15px;
+}
 
-      #portfolio img {
-        height: 345px;
-        width: 500px;
-      }
+#portfolio h3 {
+  font-size: 36px;
+}
 
-      #portfolio p {
-        font-size: 1.5em;
-        line-height: 1.6em;
-        text-align: left;
-      }
+#portfolio img {
+  height: 345px;
+  width: 500px;
+}
 
-      #about {
-        height: 650px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-flow: row wrap;
+#portfolio p {
+  font-size: 1.5em;
+  line-height: 1.6em;
+  text-align: left;
+}
 
-      }
+/*** About Section ***/
 
-      #about h3 {
-        font-size: 30px;
-        width: 60%;
-      }
-      .about-me {
-        font-size: 20px;
-        line-height: 24px;
-        text-align: left;
-      }
+#about {
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
-      footer {
-        height: 400px;
-      }
+#about h3 {
+  font-size: 30px;
+  width: 60%;
+}
 
-      footer h3 {
-        font-size: 36px;
-        line-height: 50px;
-        padding-bottom: 25px;
+.about-me {
+  font-size: 20px;
+  line-height: 24px;
+  text-align: left;
+}
 
-      }
+/*** Footer ***/
 
-      .contact p {
-        font-size: 1.5em;
-        line-height: 32px;
-      }
+footer {
+  height: 400px;
+}
 
-      .contact i {
-        font-size: 2em;
-      }
+footer h3 {
+  font-size: 36px;
+  line-height: 50px;
+  padding-bottom: 25px;
+}
+
+.contact p {
+  font-size: 1.5em;
+  line-height: 32px;
+}
+
+.contact i {
+  font-size: 2em;
+}
 
 }
 
